@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		490E23B91FA9DBEE0002F8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E23B81FA9DBED0002F8FF /* AppDelegate.swift */; };
-		490E23BB1FA9DBEE0002F8FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E23BA1FA9DBEE0002F8FF /* ViewController.swift */; };
 		490E23BE1FA9DBEE0002F8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E23BC1FA9DBEE0002F8FF /* Main.storyboard */; };
 		490E23C01FA9DBEE0002F8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490E23BF1FA9DBEE0002F8FF /* Assets.xcassets */; };
 		490E23C31FA9DBEE0002F8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490E23C11FA9DBEE0002F8FF /* LaunchScreen.storyboard */; };
+		490E23CB1FA9DCBE0002F8FF /* SmileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490E23CA1FA9DCBE0002F8FF /* SmileVC.swift */; };
+		4982691C1FA9F7D300BD5929 /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4982691B1FA9F7D300BD5929 /* LoginScreenVC.swift */; };
+		4982691E1FA9F9F300BD5929 /* ChessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4982691D1FA9F9F300BD5929 /* ChessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		490E23B51FA9DBED0002F8FF /* SpalahLauout_hw10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpalahLauout_hw10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		490E23B81FA9DBED0002F8FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		490E23BA1FA9DBEE0002F8FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		490E23BD1FA9DBEE0002F8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		490E23BF1FA9DBEE0002F8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		490E23C21FA9DBEE0002F8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		490E23C41FA9DBEE0002F8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490E23CA1FA9DCBE0002F8FF /* SmileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileVC.swift; sourceTree = "<group>"; };
+		4982691B1FA9F7D300BD5929 /* LoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
+		4982691D1FA9F9F300BD5929 /* ChessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		490E23B71FA9DBED0002F8FF /* SpalahLauout_hw10 */ = {
 			isa = PBXGroup;
 			children = (
+				490E23CA1FA9DCBE0002F8FF /* SmileVC.swift */,
+				4982691B1FA9F7D300BD5929 /* LoginScreenVC.swift */,
+				4982691D1FA9F9F300BD5929 /* ChessVC.swift */,
 				490E23B81FA9DBED0002F8FF /* AppDelegate.swift */,
-				490E23BA1FA9DBEE0002F8FF /* ViewController.swift */,
 				490E23BC1FA9DBEE0002F8FF /* Main.storyboard */,
 				490E23BF1FA9DBEE0002F8FF /* Assets.xcassets */,
 				490E23C11FA9DBEE0002F8FF /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490E23BB1FA9DBEE0002F8FF /* ViewController.swift in Sources */,
+				4982691C1FA9F7D300BD5929 /* LoginScreenVC.swift in Sources */,
 				490E23B91FA9DBEE0002F8FF /* AppDelegate.swift in Sources */,
+				490E23CB1FA9DCBE0002F8FF /* SmileVC.swift in Sources */,
+				4982691E1FA9F9F300BD5929 /* ChessVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
